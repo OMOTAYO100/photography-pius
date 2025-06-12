@@ -1,1 +1,29 @@
-node_modules
+# Node modules
+node_modules/
+
+# Build artifacts
+dist/
+build/
+
+# Tailwind JIT cache
+.tailwind-cache/
+.pnpm-debug.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Env files (private info)
+.env
+.env.local
+.env.development
+.env.production
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor settings
+.vscode/
+.idea/
